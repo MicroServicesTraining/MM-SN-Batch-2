@@ -14,7 +14,8 @@ import lombok.Data;
  * 
  */
 @Data
-@PropertySource("classpath:ecom.properties")
+//@PropertySource("classpath:ecom.properties")
+@PropertySource("file:D:\\OnlineClass\\ServiceNow_2\\config\\ecom.properties")
 @ConfigurationProperties(prefix = "ecom")
 @Configuration
 public class EcomConfig {
